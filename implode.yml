@@ -1,0 +1,10 @@
+source: ../templates/lib
+data:
+  name: hurp-cli-plugins
+  version: "0.1.0"
+  description: Some common plugins for hurp-cli
+  keywords:
+    - hurp
+    - cli
+  author: Yaroslav Korotaev <yaroslav.korotaev@gmail.com>
+  repo: yaroslav-korotaev/hurp-cli-plugins

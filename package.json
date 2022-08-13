@@ -1,0 +1,33 @@
+{
+  "name": "hurp-cli-plugins",
+  "version": "0.1.0",
+  "description": "Some common plugins for hurp-cli",
+  "keywords": [
+    "hurp",
+    "cli"
+  ],
+  "bugs": "https://github.com/yaroslav-korotaev/hurp-cli-plugins/issues",
+  "license": "MIT",
+  "author": "Yaroslav Korotaev <yaroslav.korotaev@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "repository": "yaroslav-korotaev/hurp-cli-plugins",
+  "scripts": {},
+  "dependencies": {
+    "as-table": "^1.0.55",
+    "find-up": "^5.0.0",
+    "hurp-types": "^1.0.3",
+    "uberlog": "^0.1.1",
+    "uberlog-format": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.3",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "hurp-cli": "^0.4.0"
+  }
+}
